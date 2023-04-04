@@ -2,7 +2,11 @@ require "open-uri"
 require "json"
 require "date"
 
-puts "Where are you?"
+puts "========================================"
+puts "    Will you need an umbrella today?    "
+puts "========================================"
+
+puts "\nWhere are you?"
 
 user_loc = gets.chomp
 # user_loc = "chicago"
